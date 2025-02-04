@@ -1,4 +1,4 @@
-# devender_expense_manager_task
+# Expense Manager
 
 A Minimal Expense Tracker App Following Clean Architecture.
 
@@ -8,9 +8,9 @@ This project implements a robust Flutter application using Clean Architecture pr
 
 Reference: https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/
 
-Architecture Overview
+#### Architecture Overview:
 Clean Architecture Layers
-The project is structured feature-wise and each feature has three primary layers:
+The project is structured feature-wise and each feature has three primary layers.
 
 1.Presentation Layer
 
@@ -59,7 +59,7 @@ Uses Hive for efficient local data persistence
 Implemented with type-safe models
 Initialized in core/init/hive_init.dart
 
-Whole Project Structure
+#### Whole Project Structure
 
 ```
 lib
@@ -125,20 +125,20 @@ lib
 
 ```
 
-Getting Started
+### Setup
 
-Prerequisites
+Prerequisites : Flutter SDK
 
-Flutter SDK
-
-Installation
+#### Installation
 
 1. You can test the apk directly,found in apk folder
             or
 2. Clone the repository
-Run flutter pub get
-Generate required files: flutter pub run build_runner build
-Run the app:  flutter run
+    Run flutter pub get
+    
+    Generate required files: flutter pub run build_runner build
+    
+    Run the app:  flutter run    
 
-Running Tests
+#### Running Tests
 cmd - flutter test 
